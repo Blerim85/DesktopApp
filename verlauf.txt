@@ -1,0 +1,23 @@
+Aufgabe 4 - Desktop APP
+Erstellen Sie eine Desktop Applikation mit Electron zum Verschlüsseln (und Entschlüsseln) von Dateien.
+
+Funktion:
+Per Drag&Drop kann eine beliebige Datei auf die Applikation gezogen werden.
+Durch Eingabe eines Passwortes wird der Inhalt der Datei verschlüsselt (CryptoJS mit AES) und als mit der Dateiendung .secret gespeichert.
+
+Zum Entpacken wird eine .secret Datei auf die Applikation gezogen und durch Eingabe des Passwortes kann die Datei wieder entschlüsselt werden.
+
+Beinhaltet:
+- Drag&Drop (wie im ImageEditor Bespiel)
+- Datei speichern mit FS-Modul
+- UI zur Eingabe des Passwortes + Dropzone
+- Verschlüsselung/Entschlüsselung mit CryptoJS (Beispiel: https://embed.plnkr.co/0VPU1zmmWC5wmTKPKnhg/)
+
+## Verlauf ##
+
+- html basis erstellt 
+- script.css erstellt
+- login.js erstellt
+- server.js erstellt
+- electron installiert V
+
